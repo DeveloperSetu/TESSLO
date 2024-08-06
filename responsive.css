@@ -1,0 +1,1074 @@
+/* ===========> Extra Small mobile device Max width-600px========== */
+@media only screen and (max-width:600px){
+    /* ========================================Header==================================== */
+    #header{
+        background: rgba(0,0,0,0.4);
+        width: 100%;
+        padding: 10px;
+        width: 100%;
+    }
+    #logo{
+        justify-content: start;
+    }
+    #header #navBar{
+        display: block;
+        justify-content: start;
+
+    }
+    #header #navBar ul{
+      display: none;
+      justify-content: center;
+      padding: 10px;
+      margin: 0px;
+      background: #07262e; 
+      position: absolute; 
+      z-index: 2;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      margin-top: 15px;
+      margin-left: -20px;
+    }
+    #header a{
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    #header li{
+        padding: 20px;
+    }
+    #header li:hover {
+        background: var(--gray);
+    }
+    #header .underLine{
+        height: 2px;
+        width: 100%;
+        background: white;
+        transition: 1s;
+
+    }
+    #header li:hover .underLine{
+        height: 2px;
+        width: 0%;
+        background: var(--green);
+    }
+    #header .headerbtn{
+        background: var(--green);
+        border: none;
+        color: white;
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 3px;
+        display: none;
+    }
+    #header .headerbtn:hover{
+        background: black;
+    }
+    #header a:active{
+        color: var(--green);
+    }
+    #header #Bar{
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        float: right;
+        display: block;
+    }
+    #header #cancleBar{
+        font-size: 30px;
+        float: right;
+        display: block;
+
+    }
+    /* ==================================> section1 <====================================== */
+    #section1{
+        background: url(images/banner.jpg);
+        height: 60vh;
+        background-size: cover;
+        margin-top: -110px;
+    }
+
+    #section1 .banner{
+        background: var(--overShadow);
+        height: 60vh;
+        background-size: cover;
+    }
+
+    #section1 h1{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 30%;
+    }
+
+    #section1 a{
+        text-decoration: none;
+        padding: 17px 45px;
+        background: white;
+        border-radius: 2px;
+        color: var(--green);
+        font-weight: bold;
+    }
+
+    #section1 a:hover{
+        background: black;
+    }
+    /* ==================================> section1 <====================================== */
+    #section1{
+        background: url(images/banner.jpg);
+        height: 170vh;
+        background-size: cover;
+        margin-top: -110px;
+    }
+
+    #section1 .banner{
+        background: var(--overShadow);
+        height: 170vh;
+        background-size: cover;
+    }
+
+    #section1 h1{
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        padding-top: 30%;
+    }
+
+    #section1 a{
+        text-decoration: none;
+        padding: 17px 45px;
+        background: white;
+        border-radius: 2px;
+        color: var(--green);
+        font-weight: bold;
+    }
+
+    #section1 a:hover{
+        background: black;
+    }
+
+    /* ==================================> section2 <====================================== */
+    #section2{
+        background: white;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #section2 h1{
+        margin-bottom: 10px;
+    }
+    #section2 img{
+        width: 450px;
+    }
+    #section2 p{
+        margin-bottom: 30px;
+        color: gray;
+        text-align: justify;
+    }
+    /* ==================================> section3 <====================================== */
+    #section3 {
+        background: #F5F5F5;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #section3 h1{
+        padding-bottom: 20px;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    #section3 img {
+        width: 375px;
+    }
+    #section3 .cartcontainer{
+        padding: 20px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 30px;
+        background: white;
+        height: 307px;
+        width: 380px;
+        margin: 0 auto;
+    }
+    #section3 p{
+        color: gray;
+    }
+    #section3 a{
+        padding: 15px 30px;
+        background: var(--green);
+        color: white;
+        margin-top: 10px;
+        text-decoration: none;
+        box-shadow: 1px 1px 30px;
+    }
+    /* ==================================> section4 <====================================== */
+    #section4{
+        background: white;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #section4 img{
+        border: 5px solid white;
+        width: 450px;
+    }
+
+    #section4 h1{
+        text-align: center;
+        font-weight: bold;
+    }
+    /* ==================================> section5 <====================================== */
+    #section5{
+        background: #4C4C4C;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #section5 h1{
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 34px;
+        line-height:51px ;
+    }
+    #section5 h2{
+        font-weight: bold;
+    }
+    #section5 h5{
+        font-weight: bold;
+    }
+    #section5 h5{
+        font-size: 24px;
+        line-height: 24px;
+    }
+    #section5 li{
+        list-style:disc;
+        color: gray;
+    }
+
+    /*==================================> section6 <====================================== */
+    #section6{
+        background: white;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #section6 .container h1{
+        text-align: center;
+        font-weight: bold;
+    }
+    #section6 .container .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #section6 .container form input{
+        width: 470px;
+        height: 50px;
+    }
+    #section6 textarea{
+        width: 470px;
+    }
+
+    #section6 a{
+    width: 470px;
+    background: var(--green);
+    color: white;
+    padding: 17px 210px;
+    color: white;
+    text-decoration: none;
+    }
+    /* ================================== Footer ====================================== */
+    #footerSection{
+        background: #07262E;
+        padding-top: 100px;
+        padding-bottom: 30px;
+        color: white;
+    }
+
+    #footerSection a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+    }
+
+    #footerSection p{
+        color: white;
+    }
+
+    #footerSection h5{
+        color: white;
+    }
+    #footerSection .submitBtn{
+        padding: 4px 15px;
+        background: black;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+/* ===========> mobile device width (600-767)========== */
+@media only screen and (min-width:600px){
+/* ========================================Header==================================== */
+    #header{
+        background: gray;
+        width: 100%;
+        padding: 10px;
+        width: 100%;
+    }
+    #logo{
+        justify-content: start;
+    }
+    #header #navBar{
+        display: block;
+        justify-content: start;
+    }
+    #header #navBar ul{
+      display: block;
+      justify-content: center;
+      padding: 10px;
+      margin: 0px;
+      background: #07262e; 
+      position: absolute; 
+      z-index: 2;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      margin-top: 10px;
+      margin-left: -20px; 
+    }
+    #header a{
+        text-decoration: none;
+        color: white;
+        margin: 20px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    #header li{
+        padding: 20px;
+    }
+    #header li:hover {
+        background: var(--gray);
+    }
+    #header .underLine{
+        height: 2px;
+        width: 100%;
+        background: white;
+        transition: 1s;
+
+    }
+    #header li:hover .underLine{
+        height: 2px;
+        width: 0%;
+        background: var(--green);
+    }
+    #header .headerbtn{
+        background: var(--green);
+        border: none;
+        color: white;
+        width: 200px;
+        height: 50px;
+        padding: 10px;
+        border-radius: 3px;
+        display: none;
+    }
+    #header .headerbtn:hover{
+        background: black;
+    }
+    #header a:active{
+        color: var(--green);
+    }
+    #header #Bar{
+        color: white;
+        padding: 10px;
+        font-size: 30px;
+        float: right;
+        display: block;
+    }
+    #header #cancleBar{
+        font-size: 30px;
+        float: inherit;
+        display: block;
+    }
+    .sticky{
+        display: flex;
+        top: 0;
+        background: var(--overShadow);
+    }
+    /* ==================================> section1 <====================================== */
+    #section1{
+        background: url(images/banner.jpg);
+        height: 70vh;
+        background-size: cover;
+        margin-top: -110px;
+    }
+
+    #section1 .banner{
+        background: rgba(0, 0, 0, 0.4);
+        height: 70vh;
+        width: 100%;
+        background-size: cover;
+    }
+}
+/* ===========> Tab and small laptop width(768-991)========== */
+@media only screen and (min-width:768px){
+   
+  /* ========================================Header==================================== */
+  #header{
+    background: gray;
+    width: 100%;
+    padding: 10px;
+    width: 100%;
+}
+#logo{
+    justify-content: start;
+}
+#header #navBar{
+    display: block;
+    justify-content: start;
+}
+#header #navBar ul{
+  display: none;
+  justify-content: center;
+  padding: 10px;
+  margin: 0px;
+  background: #07262e; 
+  position: absolute; 
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -110px; 
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+#header li{
+    padding: 20px;
+}
+#header li:hover {
+    background: var(--gray);
+}
+#header .underLine{
+    height: 2px;
+    width: 100%;
+    background: white;
+    transition: 1s;
+
+}
+#header li:hover .underLine{
+    height: 2px;
+    width: 0%;
+    background: var(--green);
+}
+#header .headerbtn{
+    background: var(--green);
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    display: none;
+}
+#header .headerbtn:hover{
+    background: black;
+}
+#header a:active{
+    color: var(--green);
+}
+#header #Bar{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    float: right;
+    display: block;
+}
+#header #cancleBar{
+    font-size: 30px;
+    float: right;
+    display: block;
+}
+.stikey{
+    display: flex;
+    top: 0;
+    background: var(--overShadow);
+}
+/* ==================================> section1 <====================================== */
+#section1{
+    background: url(images/banner.jpg);
+    height: 100vh;
+    background-size: cover;
+    margin-top: -110px;
+}
+
+#section1 .banner{
+    background: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+}
+/* ========== Laptop============== */
+@media only screen and (min-width:992px){
+/* ========================================Header==================================== */
+#header{
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    width: 100%;
+}
+#logo{
+    justify-content: start;
+}
+#header #navBar{
+    display: flex;
+    justify-content: start;
+}
+#header #navBar ul{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.4); 
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+    padding: 0px;
+}
+#header .underLine{
+    height: 2px;
+    width: 0;
+    background: var(--green);
+    transition: 1s;
+}
+#header li{
+    padding: 0px;
+}
+#header li:hover {
+    background: transparent;
+}
+#header li:hover .underLine{
+    height: 2px;
+    width: 100%;
+    background: var(--green);
+}
+#header .headerbtn{
+    background: var(--green);
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+    margin-top: -20px;
+}
+#header .headerbtn:hover{
+    background: black;
+}
+#header a:active{
+    color: var(--green);
+}
+
+#header #Bar{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    float: right;
+    display: none;
+}
+#header #cancleBar{
+    font-size: 30px;
+    float: right;
+    display: none;
+
+}
+.stikey{
+    position: fixed;
+    top: 0;
+    background: var(--overShadow);
+}
+/* ==================================> section1 <====================================== */
+#section1{
+    background: url(images/banner.jpg);
+    height: 170vh;
+    background-size: cover;
+    margin-top: -110px;
+}
+
+#section1 .banner{
+    background: var(--overShadow);
+    height: 170vh;
+    background-size: cover;
+}
+
+#section1 h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 25%;
+}
+
+#section1 a{
+    text-decoration: none;
+    padding: 17px 45px;
+    background: white;
+    border-radius: 2px;
+    color: var(--green);
+    font-weight: bold;
+}
+
+#section1 a:hover{
+    background: black;
+}
+
+/* ==================================> section1 <====================================== */
+#section2{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#section2 h1{
+    margin-bottom: 10px;
+}
+#section2 img{
+    width: 450px;
+}
+#section2 p{
+    margin-bottom: 30px;
+    color: gray;
+    text-align: justify;
+}
+/* ==================================> section3 <====================================== */
+#section3 {
+    background: #F5F5F5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section3 h1{
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#section3 img {
+    width: 375px;
+}
+#section3 .cartcontainer{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    background: white;
+    height: 307px;
+    width: 380px;
+    margin: 0 auto;
+}
+#section3 p{
+    color: gray;
+}
+#section3 a{
+    padding: 15px 30px;
+    background: var(--green);
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    box-shadow: 1px 1px 30px;
+}
+/* ==================================> section4 <====================================== */
+#section4{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section4 img{
+    border: 5px solid white;
+}
+
+#section4 h1{
+    text-align: center;
+    font-weight: bold;
+}
+/* ==================================> section5 <====================================== */
+#section5{
+    background: #4C4C4C;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#section5 h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height:51px ;
+}
+#section5 h2{
+    font-weight: bold;
+}
+#section5 h5{
+    font-weight: bold;
+}
+#section5 h5{
+    font-size: 24px;
+    line-height: 24px;
+}
+#section5 li{
+    list-style:disc;
+    color: gray;
+}
+
+/*==================================> section6 <====================================== */
+#section6{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#section6 .container h1{
+    text-align: center;
+    font-weight: bold;
+}
+#section6 .container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section6 .container form input{
+    width: 470px;
+    height: 50px;
+}
+#section6 textarea{
+    width: 470px;
+}
+
+#section6 a{
+   width: 470px;
+   background: var(--green);
+   color: white;
+   padding: 17px 210px;
+   color: white;
+   text-decoration: none;
+}
+/* ================================== Footer ====================================== */
+#footerSection{
+    background: #07262E;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+#footerSection a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#footerSection p{
+    color: white;
+}
+
+#footerSection h5{
+    color: white;
+}
+#footerSection .submitBtn{
+    padding: 4px 15px;
+    background: black;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+}
+/* ========== Desktop============== */
+@media only screen and (min-width:1200px){
+/* ========================================Header==================================== */
+#header{
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    padding: 10px;
+    width: 100%;
+}
+#logo{
+    justify-content: start;
+}
+#header #navBar{
+    display: flex;
+    justify-content: start;
+}
+#header #navBar ul{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  background: transparent; 
+}
+#header a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-weight: bold;
+    padding: 0px;
+}
+#header .underLine{
+    height: 2px;
+    width: 0;
+    background: var(--green);
+    transition: 1s;
+}
+#header li{
+    padding: 0px;
+}
+#header li:hover {
+    background: transparent;
+}
+#header li:hover .underLine{
+    height: 2px;
+    width: 100%;
+    background: var(--green);
+}
+#header .headerbtn{
+    background: var(--green);
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    display: block;
+}
+#header .headerbtn:hover{
+    background: black;
+}
+#header a:active{
+    color: var(--green);
+}
+
+#header #Bar{
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    float: right;
+    display: none;
+}
+#header #cancleBar{
+    font-size: 30px;
+    float: right;
+    display: none;
+
+}
+.stikey{
+    position: fixed;
+    top: 0;
+    background: var(--overShadow);
+}
+/* ==================================> section1 <====================================== */
+#section1{
+    background: url(images/banner.jpg);
+    height: 170vh;
+    background-size: cover;
+    margin-top: -110px;
+}
+
+#section1 .banner{
+    background: var(--overShadow);
+    height: 170vh;
+    background-size: cover;
+}
+
+#section1 h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 25%;
+}
+
+#section1 a{
+    text-decoration: none;
+    padding: 17px 45px;
+    background: white;
+    border-radius: 2px;
+    color: var(--green);
+    font-weight: bold;
+}
+
+#section1 a:hover{
+    background: black;
+}
+
+/* ==================================> section1 <====================================== */
+#section2{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#section2 h1{
+    margin-bottom: 10px;
+}
+#section2 img{
+    width: 450px;
+}
+#section2 p{
+    margin-bottom: 30px;
+    color: gray;
+    text-align: justify;
+}
+/* ==================================> section3 <====================================== */
+#section3 {
+    background: #F5F5F5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section3 h1{
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#section3 img {
+    width: 375px;
+}
+#section3 .cartcontainer{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    background: white;
+    height: 307px;
+    width: 380px;
+    margin: 0 auto;
+}
+#section3 p{
+    color: gray;
+}
+#section3 a{
+    padding: 15px 30px;
+    background: var(--green);
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    box-shadow: 1px 1px 30px;
+}
+/* ==================================> section4 <====================================== */
+#section4{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section4 img{
+    border: 5px solid white;
+}
+
+#section4 h1{
+    text-align: center;
+    font-weight: bold;
+}
+/* ==================================> section5 <====================================== */
+#section5{
+    background: #4C4C4C;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#section5 h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height:51px ;
+}
+#section5 h2{
+    font-weight: bold;
+}
+#section5 h5{
+    font-weight: bold;
+}
+#section5 h5{
+    font-size: 24px;
+    line-height: 24px;
+}
+#section5 li{
+    list-style:disc;
+    color: gray;
+}
+
+/*==================================> section6 <====================================== */
+#section6{
+    background: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#section6 .container h1{
+    text-align: center;
+    font-weight: bold;
+}
+#section6 .container .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section6 .container form input{
+    width: 470px;
+    height: 50px;
+}
+#section6 textarea{
+    width: 470px;
+}
+
+#section6 a{
+   width: 470px;
+   background: var(--green);
+   color: white;
+   padding: 17px 210px;
+   color: white;
+   text-decoration: none;
+}
+/* ================================== Footer ====================================== */
+#footerSection{
+    background: #07262E;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+#footerSection a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+#footerSection p{
+    color: white;
+}
+
+#footerSection h5{
+    color: white;
+}
+#footerSection .submitBtn{
+    padding: 4px 15px;
+    background: black;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+}
